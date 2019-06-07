@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "IotPoc.Mobile.Console": {
+      "commandName": "Project"
+    }
+  }
+}

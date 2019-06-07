@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Switch
+        android:id="@+id/TelemetrySwitch"
+        android:text="@string/telemetry_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TaskDetailsHeader" />
+    <TextView
+        android:id="@+id/IntervalLabel"
+        android:text="@string/interval_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetrySwitch" />
+    <Spinner
+        android:id="@+id/IntervalSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IntervalLabel" />
+    <TextView
+        android:id="@+id/ColorLabel"
+        android:text="@string/color_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IntervalSpinner" />
+    <Spinner
+        android:id="@+id/ColorSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ColorLabel" />
+    <TextView
+        android:id="@+id/TelemetryTemperatureLabel"
+        android:text="Temperature:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ColorSpinner" />
+    <EditText
+        android:id="@+id/TelemetryTemperatureText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetryTemperatureLabel"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
+    <TextView
+        android:id="@+id/TelemetryHumidityLabel"
+        android:text="Humidity:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetryTemperatureText" />
+    <EditText
+        android:id="@+id/TelemetryHumidityText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetryHumidityLabel"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
+    <TextView
+        android:id="@+id/TelemetryTimestampLabel"
+        android:text="Timestamp:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetryHumidityText" />
+    <EditText
+        android:id="@+id/TelemetryTimestampText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TelemetryTimestampLabel"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
+</RelativeLayout>

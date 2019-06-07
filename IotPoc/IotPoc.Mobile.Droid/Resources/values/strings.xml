@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IotPoc.Mobile.Droid</string>
+    <string name="action_settings">Settings</string>
+  <string name="interval_label">Interval</string>
+  <string name="telemetry_label">Telemetry</string>
+  <string name="color_label">Color</string>
+  <string name="save_label">Save</string>
+</resources>
